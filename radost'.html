@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/73c00071d90ecfb78bf0ccdeda529307?family=Nico+Moji" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 20000px)" href="main.css">
+    <link rel="stylesheet" media="screen and (max-width: 834px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 390px)" href="smallscreen.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vesel'e</title>
+</head>
+
+<body>
+    <nav>
+        <div class="icon"><img src="./funnys/icon.png" alt="iconka"><span>CheLl</span></div>
+        <div class="nav--nav">
+            <a href="#header" class="nav--text">Главная</a>
+            <a href="#main" class="nav--text">Об авторе</a>
+            <a href="#video" class="nav--text">Видео</a>
+            <a href="#gallery" class="nav--text">Галерея</a>
+            <a href="#footer" class="nav--text">Контакты</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><img src="./funnys/icon_list.png" width="40vw" height="auto"></button>
+            <div class="dropdown--content">
+                <a href="#header">Главная</a>
+                <a href="#main">Об авторе</a>
+                <a href="#video">Видео</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#footer">Контакты</a>
+            </div>
+        </div>
+    </nav>
+    <header id="header">
+        <img src="./funnys/Gnida.png" class="header--picture">
+        <div class="header--text">
+            <h1 class="header--h1">Я, Игорь Бондарев</h1>
+            <h2 class="header--h2">Я занимаюсь веб-дизайном, front-end и back-end разработкой уже 0.2 года. Вам нужен
+                дизайн веб-сайта, верстка сайта или может быть сайт "под ключ"? Не пишите мне</h2>
+            <button target="_blank" onclick="window.location.href='./funnys/nowels.jpg';" class="header--button">Свяжитесь со мной</button>
+        </div>
+    </header>
+    <main id="main">
+        <h1 class="main--title">Об авторе</h1>
+        <div class="about--author">
+            <div class="skills">
+                <ul>
+                    <li class="skill">Мои навыки
+                    </li>
+                    <li>HTML
+                        <div class="line"></div>
+                    </li>
+                    <li>CSS
+                        <div class="line"></div>
+                    </li>
+                    <li>FIGMA<div class="line"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile">
+                <img src="./funnys/Melon.jpg" class="ava">
+                <img src="./funnys/star.png" class="kart1">
+                <img src="./funnys/star.png" class="kart2">
+                <img src="./funnys/star.png" class="kart3">
+                <img src="./funnys/star.png" class="kart4">
+            </div>
+        </div>
+        <div class="video">
+            <h1 id="video" class="main--title">Видео</h1>
+            <div class="video--source">
+                <video class="video--size" controls>
+                    <source src="./funnys/Balerine.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <h1 id="gallery" class="main--title">Галерея</h1>
+        <div class="gallery">
+            <img src="./funnys/first-picture.jpg" alt="1" class="gallery--picture box1">
+            <img src="./funnys/second-picture.jpg" alt="2" class="gallery--picture box2">
+            <img src="./funnys/third-picture.jpg" alt="3" class="gallery--picture box3">
+            <img src="./funnys/fourth-picture.jpg" alt="4" class="gallery--picture box4">
+            <img src="./funnys/fifth-picture.png" alt="5" class="gallery--picture box5">
+            <img src="./funnys/ne-kotik(3).jpg" alt="6" class="gallery--picture box6">
+        </div>
+    </main>
+    <footer id="footer">
+        <div>
+            <h1 class="footer--h1">Величайший</h1>
+            <h2 class="footer--h2">(с) 2026. Все права защищены.</h2>
+        </div>
+        <div>
+            <a href="https://t.me/CheLlx0x"><img src="./funnys/tg.png" alt="tg" class="footer--icon"></a>
+            <a href="./funnys/manheten.mp4"><img src="./funnys/vk.png" alt="vk" class="footer--icon"></a>
+            <a href="./funnys/bleah.mp4"><img src="./funnys/ds.png" alt="ds" class="footer--icon--discord"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
